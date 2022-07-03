@@ -25,12 +25,12 @@ And you can find the bot leaderboard based on this strategy [here](https://fresh
 
 If there is the best solution, why do I still make another *bad* solver here in this repo?
 
-**Life** is not choosing the best****. 
-If there exists a machine that could give humans the best solution to their final purpose (money, reputation, etc.). Will everyone follow the given route step by step? We are human, we are not machines! We like to live like a human rather than take the all best like a machine.
+**Life is not choosing the best**. 
+If there exists a machine that could give humans the best solution to their final purpose (money, reputation...). Will everyone follow the given route step by step? We are human, we are not machines! We like to live like a human rather than take the all best like a machine.
 
 1. Firstly, the program would **give your personal options/suggestions rather than optimal solutions**.
 
-2. Secondly, the program **do not assume you made the optimal attempt as most bots did**.
+2. Secondly, the program **does not assume you made the optimal attempt as most bots did**.
 
 ---
 
