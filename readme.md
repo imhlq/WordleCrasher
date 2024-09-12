@@ -1,36 +1,37 @@
 # Wordle Crasher
 
-This is a solver of the [wordle game](https://www.nytimes.com/games/wordle/index.html) with personal strategy.
+This is a solver for the [Wordle game](https://www.nytimes.com/games/wordle/index.html) with a unique, personal strategy.
 
-## Getting Start
+## Getting Started
 
-1. requirements: python3
+1. Requirements: Python 3
+   - Ensure Python 3 is installed on your machine.
+   - Install any necessary dependencies with:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-2. run program
-```
-python helper.py
-```
+2. Run the program:
+   ```bash
+   python helper.py
 
-3. Interactive with the program to solve the game
+3. Follow the prompts and interact with the program to receive suggestions for solving the Wordle game.
 
 ## Something to know
 
-This solver is not at all the best(SOTA) solver of the wordle game. A general wordle solver is based on an information entropy strategy. 
+This solver is not the best or state-of-the-art (SOTA) solver for Wordle. Most general solvers are based on an information entropy strategy, which you can learn more about in this video: [Solving Wordle using information theory](https://www.youtube.com/watch?v=v68zYyaEmEA). However, please ignore his conclusion due to the mistake he made. 
 
-Here is a great introduction video on this: [Solving Wordle using information theory](https://www.youtube.com/watch?v=v68zYyaEmEA). While please ignore his conclusion due to the mistake he made. 
-
-And you can find the bot leaderboard based on this strategy [here](https://freshman.dev/wordle/#/leaderboard).
+You can view a leaderboard of bot solvers based on these strategies [here](https://freshman.dev/wordle/#/leaderboard).
 
 ## Why this program
 
-If there is the best solution, why do I still make another *bad* solver here in this repo?
+If there are optimal solvers, why create another solver that isn't as effective?
 
-**Life is not choosing the best**. 
-If there exists a machine that could give humans the best solution to their final purpose (money, reputation...). Will everyone follow the given route step by step? We are human, we are not machines! We like to live like a human rather than take the all best like a machine.
+**Because life is not about always choosing the best solution.** Humans are not machines. While machines can offer the "best" route to a goal (money, reputation, etc.), humans often prefer to make decisions that are personal or unique.
 
-1. Firstly, the program would **give your personal options/suggestions rather than optimal solutions**.
+- This program will suggest personal options, not always the optimal solutions.
 
-2. Secondly, the program **does not assume you made the optimal attempt as most bots did**.
+- The program assumes you may not have made the optimal guesses and adjusts accordingly.
 
 ---
 
